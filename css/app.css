@@ -78,16 +78,17 @@ li {
 
 .hero .row {
 	padding: 13px;
+	gap: 25px;
 }
 
 .big-card {
-	background-color: rgb(143, 161, 225);
+	background-color: #B5DDFF;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 25px;
 	border-radius: 15px;
 	padding-top: 15px;
-	padding-left: 15px ;
+	padding-left: 15px;
 }
 
 .big-card .col {
@@ -101,13 +102,64 @@ li {
 	width: 80%;
 }
 
+.card {
+	background-color: #B5DDFF;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	padding: 15px;
+	text-align: center;
+}
 
+.card i {
+	color: #0084FD;
+	font-size: 40px;
+}
+
+.card-title {
+	color: #0084FD;
+}
+
+.card-description {
+	color: gray;
+	font-size: 15px;
+}
+
+
+/* PLANNING */
+
+.planning-card-violet {
+	color: white;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	gap: 20px;
+}
+
+
+.planning-card-white {
+	background-color: white;
+	color: black;
+	border-radius: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+	gap: 20px;
+}
+
+.arrow {
+	background-color: #9792E4;
+	padding: 10px;
+	border-radius: 75%;
+}
 
 
 /* utilities */
 
 .margin-section {
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
 .flex {
@@ -120,6 +172,10 @@ li {
 
 .center {
 	justify-content: center;
+}
+
+.end {
+	justify-content: flex-end;
 }
 
 .column {
@@ -144,10 +200,37 @@ li {
 	padding: 8px 10px;
 }
 
+.blu-btn {
+	border: none;
+	border-radius: 999px;
+	padding: 8px 35px;
+	background-color: #0084FD;
+	color: white;
+}
+
+
+.bg-violet {
+	background-color: #9792E4;
+}
+
+.pd20 {
+	padding: 10px 20px;
+}
 
 /* responsive */
 
-@media (min-width: 769px) {
+@media (min-width: 500px) {
+	.col-8 {
+		width: 60%;
+	}
+
+	.col-4 {
+		width: 30%;
+	}
+
+}
+
+@media (min-width: 835px) {
 	.page-header .hamburger {
 		display: none;
 	}
@@ -156,5 +239,39 @@ li {
 		gap: 20px;
 		align-items: baseline;
 	}
+
+	.big-card {
+		flex-wrap: nowrap;
+	}
+
+	.planning .container {
+		max-width: 700px;
+		margin: 0 auto;
+	}
+
+	.planning .col-60 {
+		width: 60%;
+	}
+
+	.planning .col-40 {
+		width: 40%;
+	}
+
+	.planning-card-violet {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 50px;
+	}
+
+	.planning-card-violet img {
+		margin-bottom: 30px;
+	}
+
+	.planning-card-white img {
+		width: 50%;
+	}
 }
+
+
+
 
