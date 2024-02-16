@@ -137,7 +137,7 @@ li {
 .planning {
     margin-top: 60px;
     background-color: #9792E4;
-    padding: 15px 10px;
+    padding: 35px 10px;
 }
 
 .planning-card-violet {
@@ -215,7 +215,7 @@ li {
 
 .people-card .people-img img {
 	border-radius: 50%;
-	width: 250px;
+	width: 400px;
 }
 
 .people-speech p {
@@ -237,6 +237,10 @@ li {
         width: calc(4 * 100% / 12);
     }
 
+	.col-md-6 {
+		width: calc(6 * 100% / 12);
+	}
+
     .col-md-8 {
         width: calc(8 * 100% / 12);
     }
@@ -246,6 +250,7 @@ li {
 	}
 
 	.people-card {
+		padding: 45px 20px;
 		flex-direction: row;
 		gap: 20px;
 		align-items: center;
@@ -273,9 +278,7 @@ li {
 
 	.col-lg-4 {
         width: calc(4 * 100% / 12);
-		display: flex;
-		flex-direction: column;
-		justify-content: end;
+		margin-top: auto;
     }
 
     .col-lg-8 {
