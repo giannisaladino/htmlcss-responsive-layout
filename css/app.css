@@ -88,6 +88,7 @@ li {
 
 .hero {
     padding: 20px 0;
+	margin-top: 40px;
 }
 
 /* CARD */
@@ -215,7 +216,9 @@ li {
 
 .people-card .people-img img {
 	border-radius: 50%;
-	width: 400px;
+	width: 250px;
+	aspect-ratio: 1/1;
+	object-fit: cover;
 }
 
 .people-speech p {
