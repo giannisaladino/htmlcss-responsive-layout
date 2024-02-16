@@ -224,8 +224,54 @@ li {
 .people-speech p {
 	margin-top: 15px;
 	font-size: 12px;
+    text-align: center;
 }
 
+
+/* BENEFITS */
+
+.benefits {
+    padding: 40px 15px;
+    background-color: #9792E4;
+}
+
+.benefits h2 {
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.benefits-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    color: #9792E4;
+}
+
+.benefits-card h1 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.benefits-card h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.benefits-card p {
+    color: black;
+    font-size: 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.benefits-card a {
+    color: white;
+    background-color: #9792E4;
+    padding: 6px 30px;
+    border-radius: 999px;
+}
 
 
 
@@ -261,6 +307,7 @@ li {
 
 	.people-card .people-speech p {
 		font-size: 16px;
+        text-align: left;
 	}
 }
 
@@ -286,5 +333,10 @@ li {
 
     .col-lg-8 {
         width: calc(8 * 100% / 12);
+    }
+
+    .benefits h2 {
+        font-size: 40px;
+        marg
     }
 }
